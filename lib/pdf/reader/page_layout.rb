@@ -66,7 +66,7 @@ class PDF::Reader
     end
 
     def col_count
-      @col_count ||= ((@page_width  / @mean_glyph_width) * 1.05).floor
+      @col_count ||= ((@page_width  / @mean_glyph_width) * 1.15).floor
     end
 
     def row_multiplier
